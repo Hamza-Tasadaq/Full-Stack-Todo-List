@@ -1,0 +1,29 @@
+li {
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.task-text h3 {
+  font-weight: bold;
+}
+.completedText {
+  opacity: 0.3;
+  text-decoration-line: line-through;
+}
+.task-text p {
+  opacity: 0.5;
+  font-size: 10px;
+}
+.delete,
+.circleTick {
+  cursor: pointer;
+  font-size: 20px;
+}
+.completed {
+  color: #635ac7;
+}
+.circleTick {
+  margin-right: 10px;
+}
